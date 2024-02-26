@@ -1,0 +1,37 @@
+PRODUCT
+{
+    "productCategory": "FAUCETS",
+    "productCollection": "COLLECTION1",
+    "title": "P1",
+    "fixedPrice": 213,
+    "discount": 0,
+    "deliveryPrice": 123,
+    "nds": 11,
+    "description": "blabla"
+}
+
+USER
+{
+    "email": "qwe1@gmail.com",
+    "password": "qweeqweA1",
+    "matchingPassword": "qweeqweA1",
+    "name": "asdasczx"
+}
+
+ORDER
+{
+    "discount": 0,
+    "promoCode": false,
+    "customerType": "INDIVIDUAL",
+    "obtainingMethod": "PICKUP",
+    "paymentMethod": "CASH",
+    "orderState": "PLACED",
+    "address": {
+        "city": "Moscow",
+        "postIndex": "999",
+        "street": "Pushkino",
+        "house": "17",
+        "apartment": "14"
+    },
+    "products": [1, 2, 3]
+}

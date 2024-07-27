@@ -1,4 +1,4 @@
-package com.artur.EXAMPLE;
+package com.artur.orange_backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

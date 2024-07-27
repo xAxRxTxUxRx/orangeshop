@@ -1,9 +1,9 @@
 spring:
   application:
-    name: EXAMPLE
+    name: orange_backend
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/example
+    url: jdbc:postgresql://localhost:5432/orange_db
     username: artur
     password: karat440
   jpa:
@@ -14,3 +14,14 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: orangePlumbingShop@gmail.com
+    password: iabo gfdh ksyc nmos
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
